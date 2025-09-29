@@ -26,7 +26,6 @@ Il s’appuie sur des **flux RSS** (France / International), un **scraper CERT-F
   * `requests`
   * `feedparser`
   * `beautifulsoup4`
-  * *(optionnel mais recommandé pour un parsing de dates plus robuste)* `python-dateutil`
 
 ### Installation rapide
 ```bash
