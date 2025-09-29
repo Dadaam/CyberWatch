@@ -29,18 +29,17 @@ Il s’appuie sur des **flux RSS** (France / International), un **scraper CERT-F
   * *(optionnel mais recommandé pour un parsing de dates plus robuste)* `python-dateutil`
 
 ### Installation rapide
-
 ```bash
 # 1) Cloner votre repo / copier le script
 # 2) Créer un venv (recommandé)
 python3 -m venv .venv
 source .venv/bin/activate       # Windows: .venv\Scripts\activate
 
-# 3) Installer les dépendances
-pip install requests feedparser beautifulsoup4 python-dateutil
+# 3) Installer toutes les dépendances
+pip install -r requirements.txt
 ```
+> python-dateutil n’est pas strictement obligatoire mais **fortement recommandé** pour un parsing de dates plus fiable.
 
-> Le script fonctionne sans `python-dateutil`, mais le parsing des dates sera moins tolérant.
 
 ---
 
