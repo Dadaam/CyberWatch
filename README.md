@@ -347,8 +347,6 @@ Taille fichier MD  : 10-50 KB
 Catégories         : 6 classifications
 ```
 
-## 🤝 Contributions
-
 ### Ajouter une source RSS
 ```python
 # 1. Tester le flux
