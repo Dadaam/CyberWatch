@@ -26,6 +26,7 @@ Il s’appuie sur des **flux RSS** (France / International), un **scraper CERT-F
   * `requests`
   * `feedparser`
   * `beautifulsoup4`
+  * `python-dateutil`
 
 ### Installation rapide
 ```bash
